@@ -67,7 +67,7 @@ function renderRoller(num: string): JSX.Element {
   );
 }
 
-// Calculate the time difference between now and the start date, returning a string with 2 digits for each unit
+
 function getTimeDiff(startDate: Date): TimeDiff {
   const now: Date = new Date();
   const diff: number = now.getTime() - startDate.getTime();

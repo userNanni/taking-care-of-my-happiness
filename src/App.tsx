@@ -9,7 +9,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <img src="src/assets/raw.jpeg" alt="own photo" />
+      <img src="https://github.com/userNanni/taking-care-of-my-happiness/blob/02c506198858eec667551a2f4fd7300d8cc220f5/src/assets/raw.jpeg" alt="own photo" />
       <h1>Time since we first met</h1>
       <Timer startDate={firstMetDate} />
       <h1>Time since we are in a relationship</h1>

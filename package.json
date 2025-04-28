@@ -1,8 +1,8 @@
 {
   "homepage": "https://usernanni.github.io/taking_care_of_my_happiness/",
   "name": "taking_care_of_my_happiness",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "preDeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "i18next": "^23.15.1",
